@@ -4,7 +4,7 @@ void call() {
             greeter.echoGreeting()
         }
         catch (exception) {
-            echo "greeter not imported"
+            echo "utilities library not imported"
         }
     }
     stage("Gradle: Build") {
