@@ -1,6 +1,8 @@
+import utilities.sonarutil.SonarqubeUtil
 void call() {
+    SonarqubeUtil sqUtil = new SonarqubeUtil()
     stage("Greeting") {
-        greeter_util.echoGreeting()
+        sqUtil.echoGreeting()
     }
     stage("Gradle: Build") {
         println "build from the gradle library"
