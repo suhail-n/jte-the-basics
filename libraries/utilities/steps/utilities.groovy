@@ -1,3 +1,6 @@
+import utilities.sonarutil.SonarqubeUtil
+
 void echoGreeting(String name = "World") {
-    echo "Hello ${name}"
+      SonarqubeUtil sqUtil = new SonarqubeUtil()
+      sqUtil.echoGreeting(name)
 }
