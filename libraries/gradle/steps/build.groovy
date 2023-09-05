@@ -1,6 +1,6 @@
 void call() {
     stage("Greeting") {
-        utilities.echoGreeting()
+        greeter.echoGreeting()
     }
     stage("Gradle: Build") {
         println "build from the gradle library"
