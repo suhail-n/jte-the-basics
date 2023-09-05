@@ -1,4 +1,4 @@
-@merge libraries {
+libraries {
     sonarqube
     utilities
 }
