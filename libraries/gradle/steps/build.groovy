@@ -1,4 +1,3 @@
-import utilities.utilities
 void call() {
     stage("Greeting") {
         utilities.echoGreeting()
