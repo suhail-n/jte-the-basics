@@ -1,3 +1,4 @@
 libraries {
-    sonarqube 
+    sonarqube
+    utilities
 }
